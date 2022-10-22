@@ -9,6 +9,13 @@ If you find this cheatsheet useful, you can support it for free by clicking ⭐ 
 | [Flet Github Repo](https://github.com/flet-dev/flet) | [Flet issues](https://github.com/flet-dev/flet/issues) |
 | [Flet Examples Repo](https://github.com/flet-dev/examples/tree/main/python) | |
 
+## Imagebase64
+```python
+https://stackoverflow.com/questions/14011021/how-to-download-a-base64-encoded-image
+<a download="FILENAME.EXT" href="data:image/png;base64,...">Download</a>
+MIME_prefix = "data:application/octet-stream;base64,"
+```
+
 <a id="install"></a>
 <a id="upgrade"></a>
 **Install / Upgrade Flet via pip**
